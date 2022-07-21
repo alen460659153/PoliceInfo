@@ -1,0 +1,17 @@
+create table PhoneList
+(
+   Id INTEGER PRIMARY KEY AUTOINCREMENT,
+   StartTime datetime not null,
+   Type varchar(20) null,
+   UserPhone varchar(20) null,
+   IMSI varchar(50) null,
+   IMEI varchar(50) null,
+   OtherPhone varchar(20) null,
+   OtherAddress varchar(30) null,
+   TalkTime integer null,
+   ActivityAddress varchar(30) null,
+   LAC varchar(20) null,
+   CI varchar(20) null,
+   GuiShu varchar(30) null,
+   JiZhanAddress varchar(60) not null
+)
